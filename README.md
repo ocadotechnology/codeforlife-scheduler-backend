@@ -1,4 +1,4 @@
-# codeforlife-{REPLACE_ME}-backend
+# codeforlife-scheduler-backend
 
 ## LICENCE
 
