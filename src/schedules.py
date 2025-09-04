@@ -70,6 +70,10 @@ SCHEDULES: "ServiceTaskSchedules" = {
     #             "campaign_name": "Inactive users on website - final reminder",
     #         },
     #     },
+    #     "sync_google_users": {
+    #         "task": "src.api.tasks.user.sync_google_users",
+    #         "schedule": crontab(hour=16, day_of_week=1),
+    #     },
     # },
     # pylint: enable=line-too-long
     # Legacy system (TODO: delete this when we stop deploying the legacy system)
@@ -98,5 +102,10 @@ SCHEDULES: "ServiceTaskSchedules" = {
             "task": "tasks.final_inactivity_reminder",
             "schedule": crontab(hour=10),
         },
+        # TODO
+        # "sync_google_users": {
+        #     "task": "tasks.sync_google_users",
+        #     "schedule": crontab(hour=10, day_of_week=1),
+        # },
     },
 }
