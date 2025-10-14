@@ -27,7 +27,7 @@ def configure_celery():
         service_task_schedules: The name and task schedules for each service.
     """
 
-    # pylint: disable-next=import-outside-toplevel
+    # pylint: disable-next=import-outside-toplevel,cyclic-import
     import settings
 
     predefined_queues: "PredefinedQueues" = {}
