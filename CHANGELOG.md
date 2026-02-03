@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/ocadotechnology/codeforlife-scheduler-backend/compare/v1.0.13...v1.0.14) (2026-02-03)
+
+
+### Bug Fixes
+
+* Install latest package ([5744f0f](https://github.com/ocadotechnology/codeforlife-scheduler-backend/commit/5744f0f020e7110a9f156975d5e9fad4436edd02))
+
 ## [1.0.13](https://github.com/ocadotechnology/codeforlife-scheduler-backend/compare/v1.0.12...v1.0.13) (2025-12-10)
 
 
